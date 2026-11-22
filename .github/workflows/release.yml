@@ -23,7 +23,7 @@ jobs:
           from pathlib import Path
 
           excluded_dirs = {
-              ".git", ".github", "__pycache__", "memory", "models",
+              ".git", ".github", "__pycache__", "models",
               "data", "backups", ".venv", "venv"
           }
           excluded_files = {
