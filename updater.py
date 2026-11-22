@@ -15,7 +15,7 @@ CONFIG_PATH = ROOT / "updater_config.json"
 USER_AGENT = "MULAX-Updater/1.0"
 MAX_DOWNLOAD_BYTES = 250 * 1024 * 1024
 
-PROTECTED_TOP_LEVEL = {"memory", "models", "data", "backups", ".git", "__pycache__"}
+PROTECTED_TOP_LEVEL = {"models", "data", "backups", ".git", "__pycache__"}
 PROTECTED_FILES = {"updater_config.json", "updater.py", "start_mulax.py"}
 
 def log(message: str) -> None:
