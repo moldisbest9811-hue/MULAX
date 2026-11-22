@@ -1,0 +1,12 @@
+# Base hardware reporting + optional web search
+psutil>=5.9
+ddgs>=9.0
+
+# Optional local GGUF inference:
+# Install a CUDA-enabled llama-cpp-python build separately if you want GPU offload.
+# See README.md; a standard pip install may provide CPU-only support depending on platform.
+llama-cpp-python>=0.3.0
+
+# Optional future neural-network training / CUDA checks:
+# Install the correct PyTorch build for your NVIDIA driver from https://pytorch.org/get-started/locally/
+# torch
